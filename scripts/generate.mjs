@@ -92,6 +92,19 @@ function transformHtml(html, pageUrl) {
   const title = $("title").first().text().trim() || "GF Expertise";
   const description = $('meta[name="description"]').attr("content") || "";
 
+  // The theme marks the header `[data-transparent]` on every page, which makes it
+  // position:absolute and overlay whatever sits directly behind it (CSS rule:
+  // `[data-device=desktop][data-transparent]{position:absolute;top:0;...}`, same for
+  // mobile). On most pages the content behind has a white spacer sized for this overlap,
+  // so the header reads as solid/white. The home page's hero banner has no such spacer
+  // and is dark, so the same transparent header shows dark and the logo becomes unreadable
+  // against it. Stripping the attribute on the home page only makes its header static
+  // (opaque, normal document flow) so it renders the same solid way as every other page,
+  // without touching the overlap behavior other pages already rely on.
+  if (new URL(pageUrl, ORIGIN).pathname === "/") {
+    $("#header [data-transparent]").removeAttr("data-transparent");
+  }
+
   // Drop wp-json discovery links/scripts (REST API, not needed, often 401s on this host).
   $('link[href*="wp-json"], link[rel="https://api.w.org/"]').remove();
   $('script').each((_, el) => {
