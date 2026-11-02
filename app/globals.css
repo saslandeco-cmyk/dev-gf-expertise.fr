@@ -4,3 +4,21 @@
 #header.ct-header {
   height: 100px;
 }
+
+/* Scoped to the same breakpoint the theme uses to show/hide desktop vs mobile
+   markup, so this doesn't force the hidden variant to display too. */
+@media (min-width: 1000px) {
+  #header.ct-header [data-device="desktop"] {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+}
+
+@media (max-width: 999.98px) {
+  #header.ct-header [data-device="mobile"] {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+}
