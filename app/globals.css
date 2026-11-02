@@ -1,2 +1,6 @@
-/* Intentionally empty: all styling comes from the mirrored WordPress theme/plugin
-   CSS, injected per-page (see app/layout.tsx and scripts/generate.mjs). */
+/* Styling mostly comes from the mirrored WordPress theme/plugin CSS, injected
+   per-page (see app/layout.tsx and scripts/generate.mjs). Overrides below. */
+
+#header.ct-header {
+  height: 100px;
+}
