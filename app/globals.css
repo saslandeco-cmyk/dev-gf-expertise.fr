@@ -58,20 +58,19 @@
   max-width: 100vw !important;
 }
 
-/* Same root cause as the hero above: this section's width is pinned to
-   the article's 1152px cap, so it exactly fills its parent and there's no
-   room left for its content to center into. The theme already centers an
-   e-con's inner wrapper (margin:0 auto; max-width:var(--content-width))
-   once the outer section itself isn't artificially constrained - breaking
-   just the outer wrapper out to the viewport lets that existing rule do
-   the centering on its own. */
-.elementor-element-9a0b86f {
-  width: 100vw !important;
-  max-width: 100vw !important;
-}
-
-/* Same fix again, for the Trustindex reviews section. */
-.elementor-element-14f95e5 {
+/* Same root cause as the hero above, for other home page sections: each
+   one's width is pinned to the article's 1152px cap, so it exactly fills
+   its parent and there's no room left for its content to center into.
+   The theme already centers an e-con's inner wrapper (margin:0 auto;
+   max-width:var(--content-width)) once the outer section itself isn't
+   artificially constrained - breaking just the outer wrapper out to the
+   viewport lets that existing rule do the centering on its own.
+   - 9a0b86f: "Qualifié depuis 1996"
+   - 14f95e5: Trustindex reviews
+   - cd67cd7: "Mon métier d'expert en bâtiment..." */
+.elementor-element-9a0b86f,
+.elementor-element-14f95e5,
+.elementor-element-cd67cd7 {
   width: 100vw !important;
   max-width: 100vw !important;
 }
