@@ -142,6 +142,7 @@
    the three widget areas lined up beside it in the same row. */
 #footer .ct-container {
   grid-template-columns: auto repeat(3, 1fr);
+  background-color: #181818;
 }
 
 /* Scoped to the same breakpoint the theme uses to show/hide desktop vs mobile
