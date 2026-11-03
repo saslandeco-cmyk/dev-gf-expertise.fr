@@ -146,6 +146,7 @@
   background-color: #181818;
   width: 100vw !important;
   max-width: 100vw !important;
+  --container-spacing: 30px;
 }
 
 /* Scoped to the same breakpoint the theme uses to show/hide desktop vs mobile
