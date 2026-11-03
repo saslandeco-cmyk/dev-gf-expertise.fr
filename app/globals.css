@@ -58,6 +58,18 @@
   max-width: 100vw !important;
 }
 
+/* Same root cause as the hero above: this section's width is pinned to
+   the article's 1152px cap, so it exactly fills its parent and there's no
+   room left for its content to center into. The theme already centers an
+   e-con's inner wrapper (margin:0 auto; max-width:var(--content-width))
+   once the outer section itself isn't artificially constrained - breaking
+   just the outer wrapper out to the viewport lets that existing rule do
+   the centering on its own. */
+.elementor-element-9a0b86f {
+  width: 100vw !important;
+  max-width: 100vw !important;
+}
+
 /* Scoped to the same breakpoint the theme uses to show/hide desktop vs mobile
    markup, so this doesn't force the hidden variant to display too. */
 @media (min-width: 1000px) {
