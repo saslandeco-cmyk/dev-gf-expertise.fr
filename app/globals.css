@@ -67,10 +67,12 @@
    viewport lets that existing rule do the centering on its own.
    - 9a0b86f: "Qualifié depuis 1996"
    - 14f95e5: Trustindex reviews
-   - cd67cd7: "Mon métier d'expert en bâtiment..." */
+   - cd67cd7: "Mon métier d'expert en bâtiment..."
+   - 060b785: "J'interviens pour vous accompagner dans :" */
 .elementor-element-9a0b86f,
 .elementor-element-14f95e5,
-.elementor-element-cd67cd7 {
+.elementor-element-cd67cd7,
+.elementor-element-060b785 {
   width: 100vw !important;
   max-width: 100vw !important;
 }
