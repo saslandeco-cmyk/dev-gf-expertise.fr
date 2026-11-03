@@ -75,7 +75,8 @@
    - 6af3e2f: "Mon parcours professionnel..."
    - be8aa60: the two experience-history columns
    - 2fdeb2d: "Les certifications professionnelles..."
-   - aa91b1f: the two certifications columns */
+   - aa91b1f: the two certifications columns
+   - 24eac26: divider line */
 .elementor-element-9a0b86f,
 .elementor-element-14f95e5,
 .elementor-element-cd67cd7,
@@ -86,7 +87,8 @@
 .elementor-element-6af3e2f,
 .elementor-element-be8aa60,
 .elementor-element-2fdeb2d,
-.elementor-element-aa91b1f {
+.elementor-element-aa91b1f,
+.elementor-element-24eac26 {
   width: 100vw !important;
   max-width: 100vw !important;
 }
