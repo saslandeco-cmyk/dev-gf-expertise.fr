@@ -14,6 +14,16 @@
   height: 80px;
 }
 
+/* The logo's own 80px now exceeds its 50px-tall container (site-branding/
+   site-logo-container), which top-aligns it by default and lets it overflow
+   downward. Centering the container's content keeps the logo centered in
+   the header regardless of the mismatch between the two heights. */
+#header.ct-header .site-branding,
+#header.ct-header .site-logo-container {
+  display: flex;
+  align-items: center;
+}
+
 /* Scoped to the same breakpoint the theme uses to show/hide desktop vs mobile
    markup, so this doesn't force the hidden variant to display too. */
 @media (min-width: 1000px) {
