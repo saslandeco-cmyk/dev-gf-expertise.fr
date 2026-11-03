@@ -10,13 +10,20 @@
   color: #020404;
 }
 
-/* Header menu hover: text color (--theme-link-hover-color, consumed by
-   nav li:hover>.ct-menu-link{color:...}) and the underline indicator
-   (--menu-indicator-hover-color, consumed by the a:before/:after
-   pseudo-element's background-color) both derive from theme variables. */
+/* Header menu hover: the underline indicator (--menu-indicator-hover-color,
+   consumed by the a:before/:after pseudo-element's background-color)
+   derives from a theme variable. Text color on hover also drew from a
+   theme variable (--theme-link-hover-color) originally, but the default
+   #header.ct-header .ct-menu-link{color:...} rule above has higher
+   specificity (ID present) than the theme's `li:hover>.ct-menu-link`
+   selector, which has none - so it won on hover too, flattening the
+   color. Restated the hover color explicitly at matching specificity. */
 #header-menu-1 {
-  --theme-link-hover-color: #ff7732;
   --menu-indicator-hover-color: #ff7732;
+}
+
+#header.ct-header li:hover > .ct-menu-link {
+  color: #ff7732;
 }
 
 #header.ct-header .default-logo {
