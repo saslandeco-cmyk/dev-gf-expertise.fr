@@ -119,6 +119,14 @@
   max-width: 100vw !important;
 }
 
+/* Contact form + map section (home and expert-batiment/bayonne-pays-basque):
+   same full-bleed treatment, same simple case as 46bfeb3 (children are
+   e-con-full, already stretched by the theme). */
+.elementor-element-536edf4 {
+  width: 100vw !important;
+  max-width: 100vw !important;
+}
+
 .elementor-element-5e22d09 .e-con-inner,
 .elementor-element-5e22d09 .e-con-boxed {
   width: 100% !important;
