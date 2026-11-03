@@ -152,6 +152,10 @@
   box-sizing: border-box;
 }
 
+#footer a {
+  color: #a0876e;
+}
+
 /* Scoped to the same breakpoint the theme uses to show/hide desktop vs mobile
    markup, so this doesn't force the hidden variant to display too. */
 @media (min-width: 1000px) {
