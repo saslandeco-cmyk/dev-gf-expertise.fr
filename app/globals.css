@@ -135,6 +135,15 @@
   margin-right: 0 !important;
 }
 
+/* Footer: the logo column (widget-area-1) and the three widget columns
+   (Liens / Informations / Expert en bâtiment) are direct siblings in a
+   single-column grid, so they stack one per row. Switching to 4 columns
+   puts each sibling into its own column in DOM order - logo first, then
+   the three widget areas lined up beside it in the same row. */
+#footer .ct-container {
+  grid-template-columns: auto repeat(3, 1fr);
+}
+
 /* Scoped to the same breakpoint the theme uses to show/hide desktop vs mobile
    markup, so this doesn't force the hidden variant to display too. */
 @media (min-width: 1000px) {
