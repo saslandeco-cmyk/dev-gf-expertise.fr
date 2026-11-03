@@ -24,6 +24,25 @@
   align-items: center;
 }
 
+/* Center the logo+nav group horizontally, scoped to the "start" column only
+   so the social icons column (data-column="end") is untouched. The nav
+   itself has [data-stretch]{width:100%} and its .menu has flex:1 with
+   justify-content:space-between (theme defaults), which stretch the menu
+   across all remaining space - centering the flex row alone would have no
+   visible effect until the nav is let shrink to its own content width. */
+#header.ct-header [data-column="start"] [data-items="primary"] {
+  justify-content: center;
+}
+
+#header.ct-header [data-column="start"] nav[data-stretch] {
+  width: auto;
+}
+
+#header.ct-header [data-column="start"] nav[data-stretch] > .menu {
+  flex: initial;
+  justify-content: flex-start;
+}
+
 /* Scoped to the same breakpoint the theme uses to show/hide desktop vs mobile
    markup, so this doesn't force the hidden variant to display too. */
 @media (min-width: 1000px) {
