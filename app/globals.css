@@ -166,6 +166,12 @@
 
 #footer [data-row="bottom"] {
   background-color: #020404;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#footer [data-row="bottom"] .ct-footer-copyright p {
+  color: #adaba6;
 }
 
 /* Scoped to the same breakpoint the theme uses to show/hide desktop vs mobile
