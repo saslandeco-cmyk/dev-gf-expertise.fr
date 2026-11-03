@@ -147,8 +147,8 @@
   width: 100vw !important;
   max-width: 100vw !important;
   --container-spacing: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
   box-sizing: border-box;
 }
 
