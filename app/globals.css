@@ -76,7 +76,9 @@
    - be8aa60: the two experience-history columns
    - 2fdeb2d: "Les certifications professionnelles..."
    - aa91b1f: the two certifications columns
-   - 24eac26: divider line */
+   - 24eac26: divider line
+   - 3f8476b: video/CNEDIES emblem section (appears on home and
+     expert-batiment/bayonne-pays-basque) */
 .elementor-element-9a0b86f,
 .elementor-element-14f95e5,
 .elementor-element-cd67cd7,
@@ -88,6 +90,7 @@
 .elementor-element-be8aa60,
 .elementor-element-2fdeb2d,
 .elementor-element-aa91b1f,
+.elementor-element-3f8476b,
 .elementor-element-24eac26 {
   width: 100vw !important;
   max-width: 100vw !important;
