@@ -5,6 +5,10 @@
   height: 100px;
 }
 
+#header.ct-header .ct-menu-link {
+  font-size: 18px;
+}
+
 /* Scoped to the same breakpoint the theme uses to show/hide desktop vs mobile
    markup, so this doesn't force the hidden variant to display too. */
 @media (min-width: 1000px) {
