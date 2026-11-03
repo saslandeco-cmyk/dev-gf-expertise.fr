@@ -9,6 +9,15 @@
   font-size: 18px;
 }
 
+/* Header menu hover: text color (--theme-link-hover-color, consumed by
+   nav li:hover>.ct-menu-link{color:...}) and the underline indicator
+   (--menu-indicator-hover-color, consumed by the a:before/:after
+   pseudo-element's background-color) both derive from theme variables. */
+#header-menu-1 {
+  --theme-link-hover-color: #ff7732;
+  --menu-indicator-hover-color: #ff7732;
+}
+
 #header.ct-header .default-logo {
   width: 80px;
   height: 80px;
