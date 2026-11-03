@@ -79,6 +79,27 @@
   max-width: 100vw !important;
 }
 
+/* The icon-box row (5e22d09) needs to fill the full screen width, not just
+   be centered: unlike the sections above, here the theme's own centering
+   (margin:auto; max-width:var(--content-width)) on every nested
+   .e-con-inner/.e-con-boxed level (including the inner "b810394" boxed
+   container) must also be defeated, not just the outer wrapper's cap.
+   (".e-con-boxed" is deliberately matched only as a *descendant* here -
+   5e22d09 itself also carries that class, and an earlier version of this
+   rule matched it too via a compound selector, whose higher specificity
+   clamped width back down to 100% of the still-1152px parent.) */
+.elementor-element-5e22d09 {
+  width: 100vw !important;
+  max-width: 100vw !important;
+}
+.elementor-element-5e22d09 .e-con-inner,
+.elementor-element-5e22d09 .e-con-boxed {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 /* Scoped to the same breakpoint the theme uses to show/hide desktop vs mobile
    markup, so this doesn't force the hidden variant to display too. */
 @media (min-width: 1000px) {
