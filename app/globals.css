@@ -175,6 +175,11 @@
   padding-top: 0px;
 }
 
+#header .ct-header-socials svg {
+  width: 20px;
+  height: 20px;
+}
+
 #footer [data-row="bottom"] .ct-footer-copyright p {
   color: #adaba6;
 }
