@@ -70,13 +70,15 @@
    - cd67cd7: "Mon métier d'expert en bâtiment..."
    - 060b785: "J'interviens pour vous accompagner dans :"
    - bb1c343: the two bullet-list columns
-   - 69e203e: "Mon rôle n'est pas seulement technique :" */
+   - 69e203e: "Mon rôle n'est pas seulement technique :"
+   - e72f570: "Mon objectif est de vous permettre..." icon list */
 .elementor-element-9a0b86f,
 .elementor-element-14f95e5,
 .elementor-element-cd67cd7,
 .elementor-element-060b785,
 .elementor-element-bb1c343,
-.elementor-element-69e203e {
+.elementor-element-69e203e,
+.elementor-element-e72f570 {
   width: 100vw !important;
   max-width: 100vw !important;
 }
