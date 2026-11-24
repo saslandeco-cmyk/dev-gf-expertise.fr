@@ -1,0 +1,60 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String?
+  createdAt    DateTime @default(now())
+  posts        Post[]
+}
+
+// One row per existing page an admin has customized. No row = render the
+// static content/<slug>/body.html untouched. `fields` only ever holds the
+// specific data-edit-id values that were changed (e.g. {"e3": "New text",
+// "e7": "https://.../new-image.jpg"}), never a full copy of the page.
+model PageOverride {
+  slug      String   @id
+  fields    Json
+  updatedAt DateTime @updatedAt
+}
+
+model Post {
+  id            String    @id @default(cuid())
+  slug          String    @unique
+  title         String
+  excerpt       String?
+  coverImageUrl String?
+  bodyHtml      String    @db.Text
+  published     Boolean   @default(true)
+  publishedAt   DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  authorId      String?
+  author        User?     @relation(fields: [authorId], references: [id])
+}
+
+// Brand-new pages created from the admin, served at /<slug>/ via
+// app/[slug]/page.tsx. Distinct from PageOverride (which only edits the
+// pre-existing static pages) - this model lets an admin publish a page at a
+// URL that didn't exist before, without touching any code. createPage()
+// rejects slugs that collide with an existing static route or app folder
+// (see lib/reserved-slugs.ts), so it can never shadow current pages.
+model Page {
+  id              String   @id @default(cuid())
+  slug            String   @unique
+  title           String
+  excerpt         String?
+  metaDescription String?
+  coverImageUrl   String?
+  bodyHtml        String   @db.Text
+  published       Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

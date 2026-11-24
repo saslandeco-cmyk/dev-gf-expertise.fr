@@ -4,22 +4,38 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postinstall": "prisma generate",
+    "seed:admin": "node scripts/seed-admin.mjs"
   },
   "dependencies": {
-    "next": "16.4.3",
+    "@prisma/adapter-pg": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "@tiptap/extension-image": "^3.34.0",
+    "@tiptap/extension-link": "^3.34.0",
+    "@tiptap/pm": "^3.34.0",
+    "@tiptap/react": "^3.34.0",
+    "@tiptap/starter-kit": "^3.34.0",
+    "@vercel/blob": "^2.9.0",
+    "bcryptjs": "^3.0.3",
+    "next": "^16.4.6",
+    "next-auth": "^5.0.0-beta.32",
+    "pg": "^8.23.1",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/pg": "^8.23.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "cheerio": "^1.2.0",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
+    "prisma": "^7.10.1",
     "typescript": "^5"
   }
 }

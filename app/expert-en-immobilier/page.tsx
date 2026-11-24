@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import type { Metadata } from "next";
+import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Expertise Maison Avant Achat - GF Expertise",
@@ -10,12 +11,14 @@ export const metadata: Metadata = {
 const CONTENT_DIR = path.join(process.cwd(), "content", "expert-en-immobilier");
 const headHtml = fs.readFileSync(path.join(CONTENT_DIR, "head.html"), "utf8");
 const bodyHtml = fs.readFileSync(path.join(CONTENT_DIR, "body.html"), "utf8");
+const SLUG = "expert-en-immobilier";
 
-export default function Page() {
+export default async function Page() {
+  const effectiveBodyHtml = await getEffectiveBodyHtml(SLUG, bodyHtml);
   return (
     <>
       <div dangerouslySetInnerHTML={{ __html: headHtml }} />
-      <div className="wp-singular page-template page-template-elementor_header_footer page page-id-572 wp-custom-logo wp-embed-responsive wp-theme-blocksy wp-child-theme-gf-expertise-child elementor-default elementor-template-full-width elementor-kit-919 elementor-page elementor-page-572 modula-best-grid-gallery" dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+      <div className="wp-singular page-template page-template-elementor_header_footer page page-id-572 wp-custom-logo wp-embed-responsive wp-theme-blocksy wp-child-theme-gf-expertise-child elementor-default elementor-template-full-width elementor-kit-919 elementor-page elementor-page-572 modula-best-grid-gallery" dangerouslySetInnerHTML={{ __html: effectiveBodyHtml }} />
     </>
   );
 }

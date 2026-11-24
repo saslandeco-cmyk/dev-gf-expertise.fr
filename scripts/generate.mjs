@@ -186,9 +186,47 @@ function transformHtml(html, pageUrl) {
     });
   const headHtml = $("head").html() || "";
 
+  tagEditableFields($);
+
   const bodyHtml = $("body").html() || "";
   const bodyClass = $("body").attr("class") || "";
   return { title, description, headHtml, bodyHtml, bodyClass };
+}
+
+// Tags editable leaf content (text nodes and images) with stable, sequential
+// data-edit-id attributes ("e1", "e2", ...) in document order, so the admin's
+// visual page editor (lib/page-content.ts's getEffectiveBodyHtml) can target
+// them later. Invisible to visitors, harmless if never edited. IDs are
+// positional: if a page's structure changes on a future re-scrape, a saved
+// override could attach to the wrong field - acceptable for v1.
+const TEXT_LEAF_TAGS = ["h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "span", "a"];
+function tagEditableFields($) {
+  let counter = 0;
+  const nextId = () => `e${++counter}`;
+
+  $("body")
+    .find(TEXT_LEAF_TAGS.join(","))
+    .each((_, el) => {
+      const $el = $(el);
+      const ownText = $el
+        .contents()
+        .filter((_, node) => node.type === "text")
+        .text()
+        .trim();
+      if (!ownText) return;
+      const hasElementChildWithText = $el
+        .children()
+        .toArray()
+        .some((child) => $(child).text().trim().length > 0);
+      if (hasElementChildWithText) return;
+      $el.attr("data-edit-id", nextId());
+    });
+
+  $("body")
+    .find("img")
+    .each((_, el) => {
+      $(el).attr("data-edit-id", nextId());
+    });
 }
 
 // The XML sitemap omits a few nav/footer-linked pages (e.g. /contact/, /mentions-legales/),
@@ -234,7 +272,10 @@ async function main() {
   const queue = [...seeds];
   for (const s of seeds) visited.add(s);
 
+  const routesManifest = [];
+  let sharedChromeSaved = false;
   let generated = 0;
+
   while (queue.length > 0) {
     const urlStr = queue.shift();
     let html;
@@ -265,10 +306,29 @@ async function main() {
 
     const contentSegments = segments.length ? segments : ["__home__"];
     const contentPathArgs = contentSegments.map((s) => JSON.stringify(s)).join(", ");
+    const slug = contentSegments.join("/");
+
+    // Shared header/footer chrome for app/blog to reuse, captured once from
+    // the home page so blog posts carry the same nav/footer without
+    // re-deriving Elementor markup per post.
+    if (!sharedChromeSaved && segments.length === 0) {
+      const $ = cheerio.load(bodyHtml, { decodeEntities: false });
+      const headerHtml = $.html($("#header"));
+      const footerHtml = $.html($("#footer"));
+      const sharedDir = path.join(CONTENT_DIR, "__shared__");
+      fs.mkdirSync(sharedDir, { recursive: true });
+      fs.writeFileSync(path.join(sharedDir, "header.html"), headerHtml, "utf8");
+      fs.writeFileSync(path.join(sharedDir, "footer.html"), footerHtml, "utf8");
+      sharedChromeSaved = true;
+    }
+
+    const pathname = new URL(urlStr, ORIGIN).pathname;
+    routesManifest.push({ slug, pathname, title });
 
     const pageTsx = `import fs from "node:fs";
 import path from "node:path";
 import type { Metadata } from "next";
+import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: ${JSON.stringify(title)},
@@ -278,12 +338,14 @@ export const metadata: Metadata = {
 const CONTENT_DIR = path.join(process.cwd(), "content", ${contentPathArgs});
 const headHtml = fs.readFileSync(path.join(CONTENT_DIR, "head.html"), "utf8");
 const bodyHtml = fs.readFileSync(path.join(CONTENT_DIR, "body.html"), "utf8");
+const SLUG = ${JSON.stringify(slug)};
 
-export default function Page() {
+export default async function Page() {
+  const effectiveBodyHtml = await getEffectiveBodyHtml(SLUG, bodyHtml);
   return (
     <>
       <div dangerouslySetInnerHTML={{ __html: headHtml }} />
-      <div className=${JSON.stringify(bodyClass)} dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+      <div className=${JSON.stringify(bodyClass)} dangerouslySetInnerHTML={{ __html: effectiveBodyHtml }} />
     </>
   );
 }
@@ -292,6 +354,14 @@ export default function Page() {
     generated++;
     console.log("  [OK]", urlStr, "->", path.relative(ROOT, routeDir));
   }
+
+  const manifestDir = path.join(ROOT, "lib", "generated");
+  fs.mkdirSync(manifestDir, { recursive: true });
+  fs.writeFileSync(
+    path.join(manifestDir, "site-routes.json"),
+    JSON.stringify(routesManifest, null, 2),
+    "utf8"
+  );
 
   console.log(`Terminé. ${generated} pages générées.`);
 }
