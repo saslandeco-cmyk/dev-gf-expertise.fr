@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Expert bâtiment à CAPBRETON / HOSSEGOR – Expertise indépendante rapide - GF Expertise",
-  description: "",
+  description: "Expert Bâtiment CAPBRETON / HOSSEGOR _ Expertise indépendante rapide Fissures, humidité, réception de travaux, malfaçons, ou litige pendant les travaux ? J’interviens rapidement à CAPEBRETON & HOSSEGOR et dans le sud des Landes pour réaliser une expertise technique fiable et indépendante. Les missions de GF EXPERTISE: – Expertise fissures maison – Expertise humidité maison – […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "gf-expertise-expert-technicien-en-batiment", "expert-batiment-a-capbreton-hossegor-expertise-independante-rapide");

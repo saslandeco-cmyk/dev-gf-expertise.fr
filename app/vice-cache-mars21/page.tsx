@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Vice caché sur une maison individuelle : Que faire ? - GF Expertise",
-  description: "",
+  description: "Après découvrir une imperfection à la suite de l’achat d’une maison, que devez-vous faire ? Appeler un expert en bâtiment évidemment ! Ce dernier vérifie le respect des normes et de la réglementation, Il constate les désordres, recherche l’origine des dommages, propose des solutions amiables et détermine la responsabilité de chacun. 1 – Généralités 1.1 […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "vice-cache-mars21");

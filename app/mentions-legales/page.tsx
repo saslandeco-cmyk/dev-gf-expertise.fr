@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Mentions Légales - GF Expertise",
-  description: "",
+  description: "Mentions légales 1. Edition Le site gf-expertise (ci-après dénommé le Site) et ont édités par : Créateur du site : Webmaster Landes – Landeco Référencement : Agence SEO Landeco Statut INSEE : Enregistrée à l’INSEE le 04-09-2006Dénomination : MONSIEUR FREDERIC GAUTHIERAdresse : 4 RUE DES MORILLES 40260 LINXETéléphone : 06.62.43.36.84SIREN : 491 732 954SIRET (siege) : 49173295400038Activité […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "mentions-legales");

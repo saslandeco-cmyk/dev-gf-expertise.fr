@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Accueil - GF Expertise",
-  description: "",
+  description: "Frédéric GAUTHIER Expert en bâtiment Landes – Pays Basque – Pyrénées Atlantiques demande d’nformations Qualifié dans le bâtiment depuis 1996   Chez GF EXPERTISE, il n’y a pas de « NOUS », mais simplement Frédéric GAUTHIER, expert en bâtiment intervenant pour les particuliers, les professionnels, les agents immobiliers, les syndics, les collectivités et institutions publiques […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "expert-batiment", "bayonne-pays-basque");

@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Expertise Maison Avant Achat - GF Expertise",
-  description: "",
+  description: "Expertise immobilière Audit avant-achat L’essentiel de la mission d’audit pré-achat Pour quel type de biens cela fonctionne ? « L’audit se fait pour des maisons, appartements, immeubles complets, locaux commerciaux, bureaux, bâtiments industriels. » Qu’est ce que j’inspecte et qu’est-ce que je recherche ? « 1. J’évalue d’une part l’état technique des ouvrages mais également leur vétusté (vieillissement). […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "expert-en-immobilier");

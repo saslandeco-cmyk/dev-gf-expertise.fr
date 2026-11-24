@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "INFILTRATION DE TOITURE : TROUVER LA FUITE N’EST PAS TOUJOURS SI SIMPLE - GF Expertise",
-  description: "",
+  description: "Une auréole au plafond, une trace d’humidité ou de l’eau qui apparaît lors de fortes pluies ? L’origine d’une infiltration de toiture n’est pas forcément située juste au-dessus du dommage visible. L’eau peut cheminer sous les tuiles, le long d’un écran de sous-toiture, d’une pièce de charpente ou d’un isolant avant de devenir visible plusieurs […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "infiltration-de-toiture-trouver-la-fuite-nest-pas-toujours-si-simple");

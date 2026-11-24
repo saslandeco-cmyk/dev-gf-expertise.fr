@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Des fissures apparaissent ? Que faire ? - GF Expertise",
-  description: "",
+  description: "Vous constatez chez vous des fissures qui s’agrandissent ? Il est temps d’appeler un expert en construction qui va définir un problème structurel en identifiant sa cause et en répartissant les responsabilités, d’un tiers en général. Vous trouverez ici un exemple de diagnostique rélative à un affaissement de la dalle en raison d’infiltration d’eau provenant […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "fissures-infiltrations");

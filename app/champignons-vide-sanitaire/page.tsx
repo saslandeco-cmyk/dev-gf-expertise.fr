@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Problème d'humidité : des champignons dans le vide sanitaire - GF Expertise",
-  description: "",
+  description: "Lors de l’achat d’une maison de plain-pieds en bois réalisée en « auto-construction », les nouveaux propriétaires ont constaté des dégâts structurels au niveau du plancher d’une chambre et l’infiltration d’eau devant la baie vitrée du salon quelques semaines suivant la date de leur acquisition. Le nouvel acquéreur fait appel à un expert en construction […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "champignons-vide-sanitaire");

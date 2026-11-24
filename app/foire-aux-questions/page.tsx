@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Foire aux questions - GF Expertise",
-  description: "",
+  description: "Vous vous posez des questions ? Voici quelques réponses… Vous trouverez ci-dessous les réponses aux questions les plus fréquentes concernant le métier d’expert en bâtiment et ses fonctions. Si vous ne trouvez toujours pas la réponse à votre question, contactez-moi ! Quelle est la différence entre un expert bâtiment indépendant, un expert d’assurance, un expert […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "foire-aux-questions");

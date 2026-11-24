@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Soutenons cette famille landaise victime de malfaçons - GF Expertise",
-  description: "",
+  description: "Extrait d’un article Sud Ouest rédigé par Arnauld Bernard Publié le 01/10/2020 Lionel et Géraldine Labesque ont obtenu la condamnation de l’entrepreneur et de son assurance pour des malfaçons sur leur maison, bâtie à Messanges. Problème : les personnes en cause sont insolvables. Sud Ouest Solidarité invite à soutenir ce couple de Landais Lionel et […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "soutenons-cette-famille-landaise-victime-de-malfacons");

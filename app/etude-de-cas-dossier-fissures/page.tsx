@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Etude de cas : Dossier Fissures - GF Expertise",
-  description: "",
+  description: "Sur la demande d’un maitre d’ouvrage, GF EXPERTISE est missionné pour diagnostiquer un cas de fissures et pour établir un rapport de constat afin de définir l’évolution d’un sinistre révélé précédemment par un expert d’assurance. Ainsi 4 ans après l’expertise initiale, plusieurs nouvelles fissures ont été détectées, outre un élargissement de l’amplitude et un allongement […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "etude-de-cas-dossier-fissures");

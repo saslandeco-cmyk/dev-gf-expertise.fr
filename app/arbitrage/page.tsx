@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Arbitrage Litiges Travaux et Problèmes de Construction - GF Expertise",
-  description: "",
+  description: "Arbitrage Litiges Travaux et Problèmes de Construction L’arbitrage est un Mode Alternatif de Règlement de Différent (MARD). L’arbitrage est une justice privée payante, volontaire et conventionnelle grâce à laquelle, les conflits sont soustraits aux juridictions étatiques (les tribunaux) pour être soumis à des arbitres ayant la mission de juger. L’arbitrage consiste à soumettre un litige, […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "arbitrage");

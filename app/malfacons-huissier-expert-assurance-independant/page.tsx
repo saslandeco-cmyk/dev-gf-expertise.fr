@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Malfaçons : faut-il contacter un huissier, un expert d’assurance ou un indépendant ? - GF Expertise",
-  description: "",
+  description: "Malfaçons : faut-il contacter un huissier, un expert d’assurance ou un indépendant ? Malfaçons : faut-il contacter un huissier, un expert d’assurance ou un indépendant ? Détecter une malfaçon n’est pas à la portée de tous ! En effet sans connaissance technique spécifique dans le bâtiment, il est impossible d’identifier les problèmes non visibles et […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "malfacons-huissier-expert-assurance-independant");

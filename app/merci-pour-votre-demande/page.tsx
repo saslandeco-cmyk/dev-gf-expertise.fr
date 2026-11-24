@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Merci pour votre demande - GF Expertise",
-  description: "",
+  description: "Votre message a bien été envoyé.Je vous contacte dans les plus brefs délais.Merci de m’avoir sollicité !",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "merci-pour-votre-demande");

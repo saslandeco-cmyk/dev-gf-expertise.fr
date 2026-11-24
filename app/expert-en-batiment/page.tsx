@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Contact - GF Expertise",
-  description: "",
+  description: "Besoins de conseils ou d’un accompagnement ? Malfaçons, expertises avant achat, litiges avec une entreprise, suspicions de vices cachés, sinistres ou désaccord avec un assureur… Expert en bâtiment pour particuliers et professionnels Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire.Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire. Identité : * PrénomNom […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "expert-en-batiment");

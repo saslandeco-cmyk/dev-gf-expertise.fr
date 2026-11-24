@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Pourquoi confier l’analyse de vos devis à un expert en bâtiment avant de lancer les travaux ? - GF Expertise",
-  description: "",
+  description: "Confier l’analyse de vos devis à un expert en bâtiment avant de lancer les travaux Qu’il s’agisse de rénover un logement, de remplacer une toiture, de moderniser une salle de bains ou d’agrandir une maison, un projet de travaux nécessite une préparation rigoureuse. Avant de retenir une entreprise, il est naturel de comparer les prix. […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "confier-lanalyse-de-vos-devis-a-un-expert-en-batiment-avant-de-lancer-les-travaux");

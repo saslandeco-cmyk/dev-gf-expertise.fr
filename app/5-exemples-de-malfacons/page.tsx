@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "5 Exemples de malfaçons dans le bâtiment - GF Expertise",
-  description: "",
+  description: "Correspondant à la moitié des litiges immobiliers déclarés, les malfaçons peuvent avoir lieu aussi bien dans les travaux d’une construction neuve, ou dans la rénovation d’un logement ancien. Voici 5 cas rapportés par la presse, lesquels figurent parmi les plus marquants en matière de malfaçon immobilière. Dans le centre de Wattrelos – extrait de la […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "5-exemples-de-malfacons");

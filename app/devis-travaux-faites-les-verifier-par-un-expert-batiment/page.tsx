@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Devis travaux : faites-les vérifier par un expert bâtiment - GF Expertise",
-  description: "",
+  description: "Pourquoi faire vérifier ses devis par un expert en bâtiment avant les travaux ? Préparer une rénovation, refaire une toiture, aménager une salle de bains ou réaliser une extension représente un engagement important. Avant de choisir une entreprise, les particuliers comparent généralement les montants proposés. Mais un devis doit aussi être examiné pour ce qu’il […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "devis-travaux-faites-les-verifier-par-un-expert-batiment");

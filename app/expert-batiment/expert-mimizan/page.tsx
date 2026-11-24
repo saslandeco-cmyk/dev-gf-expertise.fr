@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Expert bâtiment à Dax – Expertise indépendante rapide - GF Expertise",
-  description: "",
+  description: "Expert Bâtiment DAX – Expertise indépendante rapide Fissures, humidité, réception de travaux, malfaçons, ou litige pendant les travaux ? J’interviens rapidement à Dax et dans le sud des Landes pour réaliser une expertise technique fiable et indépendante. Les missions de GF EXPERTISE: – Expertise fissures maison – Expertise humidité maison – Expertise sinistre – Analyse […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "expert-batiment", "expert-mimizan");

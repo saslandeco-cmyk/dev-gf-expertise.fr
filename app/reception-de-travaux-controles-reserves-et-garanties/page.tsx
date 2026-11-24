@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Réception de travaux : contrôles, réserves et garanties - GF Expertise",
-  description: "",
+  description: "Découvrez les contrôles à effectuer, comment rédiger des réserves précises et pourquoi se faire accompagner par un expert bâtiment. La réception de travaux n’est pas une simple remise de clés. C’est l’acte par lequel le maître d’ouvrage accepte les travaux réalisés, avec ou sans réserves. Cette étape marque officiellement la fin du chantier et constitue […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "reception-de-travaux-controles-reserves-et-garanties");

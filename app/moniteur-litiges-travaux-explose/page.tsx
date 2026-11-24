@@ -5,7 +5,7 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Le moniteur : le nombre de litiges par travaux explose - GF Expertise",
-  description: "",
+  description: "Selon, le moniteur du bâtiment, le e nombre de litiges dans les travaux de construction et de rénovation a considérablement augmenté ces dernières années. Désormais, bon nombre de chantiers subissent deux, voire trois litiges à la fois. Les causes en sont multiples, mais les plus fréquentes sont les retards de réalisation, les abandons de chantier […]",
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "moniteur-litiges-travaux-explose");
