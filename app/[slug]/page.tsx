@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
+import { SITE_URL } from "@/lib/site-url";
 
 // Catches any single-segment URL that isn't already a static route folder -
 // Next.js always matches a literal folder (e.g. app/contact/) before this
@@ -29,5 +30,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${page.title} - GF Expertise`,
     description: page.metaDescription ?? page.excerpt ?? undefined,
+    alternates: { canonical: `${SITE_URL}/${slug}/` },
   };
 }

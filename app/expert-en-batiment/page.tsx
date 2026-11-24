@@ -6,6 +6,22 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 export const metadata: Metadata = {
   title: "Contact - GF Expertise",
   description: "Besoins de conseils ou d’un accompagnement ? Malfaçons, expertises avant achat, litiges avec une entreprise, suspicions de vices cachés, sinistres ou désaccord avec un assureur… Expert en bâtiment pour particuliers et professionnels Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire.Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire. Identité : * PrénomNom […]",
+  alternates: { canonical: "https://gf-expertise.fr/expert-en-batiment/" },
+  robots: { index: false, follow: false },
+  openGraph: {
+    title: "Contact - GF Expertise",
+    description: "Besoins de conseils ou d’un accompagnement ? Malfaçons, expertises avant achat, litiges avec une entreprise, suspicions de vices cachés, sinistres ou désaccord avec un assureur… Expert en bâtiment pour particuliers et professionnels Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire.Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire. Identité : * PrénomNom […]",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2026/02/expertbatimentlandespaysbasque.png"],
+    siteName: "GF Expertise",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact - GF Expertise",
+    description: "Besoins de conseils ou d’un accompagnement ? Malfaçons, expertises avant achat, litiges avec une entreprise, suspicions de vices cachés, sinistres ou désaccord avec un assureur… Expert en bâtiment pour particuliers et professionnels Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire.Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire. Identité : * PrénomNom […]",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2026/02/expertbatimentlandespaysbasque.png"],
+  },
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "expert-en-batiment");

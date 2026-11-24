@@ -6,6 +6,21 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 export const metadata: Metadata = {
   title: "INFILTRATION DE TOITURE : TROUVER LA FUITE N’EST PAS TOUJOURS SI SIMPLE - GF Expertise",
   description: "Une auréole au plafond, une trace d’humidité ou de l’eau qui apparaît lors de fortes pluies ? L’origine d’une infiltration de toiture n’est pas forcément située juste au-dessus du dommage visible. L’eau peut cheminer sous les tuiles, le long d’un écran de sous-toiture, d’une pièce de charpente ou d’un isolant avant de devenir visible plusieurs […]",
+  alternates: { canonical: "https://gf-expertise.fr/infiltration-de-toiture-trouver-la-fuite-nest-pas-toujours-si-simple/" },
+  openGraph: {
+    title: "INFILTRATION DE TOITURE : TROUVER LA FUITE N’EST PAS TOUJOURS SI SIMPLE - GF Expertise",
+    description: "Une auréole au plafond, une trace d’humidité ou de l’eau qui apparaît lors de fortes pluies ? L’origine d’une infiltration de toiture n’est pas forcément située juste au-dessus du dommage visible. L’eau peut cheminer sous les tuiles, le long d’un écran de sous-toiture, d’une pièce de charpente ou d’un isolant avant de devenir visible plusieurs […]",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2026/10/Localiser-une-infiltration-de-toiture.png"],
+    siteName: "GF Expertise",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "INFILTRATION DE TOITURE : TROUVER LA FUITE N’EST PAS TOUJOURS SI SIMPLE - GF Expertise",
+    description: "Une auréole au plafond, une trace d’humidité ou de l’eau qui apparaît lors de fortes pluies ? L’origine d’une infiltration de toiture n’est pas forcément située juste au-dessus du dommage visible. L’eau peut cheminer sous les tuiles, le long d’un écran de sous-toiture, d’une pièce de charpente ou d’un isolant avant de devenir visible plusieurs […]",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2026/10/Localiser-une-infiltration-de-toiture.png"],
+  },
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "infiltration-de-toiture-trouver-la-fuite-nest-pas-toujours-si-simple");

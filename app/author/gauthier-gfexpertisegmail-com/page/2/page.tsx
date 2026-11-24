@@ -6,6 +6,19 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 export const metadata: Metadata = {
   title: "Frédéric Gauthier, auteur/autrice sur GF Expertise - Page 2 sur 2",
   description: "",
+  alternates: { canonical: "https://gf-expertise.fr/author/gauthier-gfexpertisegmail-com/page/2/" },
+  openGraph: {
+    title: "Frédéric Gauthier, auteur/autrice sur GF Expertise - Page 2 sur 2",
+    images: ["https://gf-expertise.fr/wp-content/litespeed/avatar/754f278181eb8682556151c28a569c28.jpg?ver=1790874893"],
+    siteName: "GF Expertise",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Frédéric Gauthier, auteur/autrice sur GF Expertise - Page 2 sur 2",
+    images: ["https://gf-expertise.fr/wp-content/litespeed/avatar/754f278181eb8682556151c28a569c28.jpg?ver=1790874893"],
+  },
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "author", "gauthier-gfexpertisegmail-com", "page", "2");

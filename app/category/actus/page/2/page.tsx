@@ -6,6 +6,17 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 export const metadata: Metadata = {
   title: "Archives des Actualites - Page 2 sur 2 - GF Expertise",
   description: "",
+  alternates: { canonical: "https://gf-expertise.fr/category/actus/page/2/" },
+  openGraph: {
+    title: "Archives des Actualites - Page 2 sur 2 - GF Expertise",
+    siteName: "GF Expertise",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Archives des Actualites - Page 2 sur 2 - GF Expertise",
+  },
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "category", "actus", "page", "2");

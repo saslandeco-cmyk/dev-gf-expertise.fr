@@ -6,6 +6,17 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 export const metadata: Metadata = {
   title: "Archives des Non classé - GF Expertise",
   description: "",
+  alternates: { canonical: "https://gf-expertise.fr/category/non-classe/" },
+  openGraph: {
+    title: "Archives des Non classé - GF Expertise",
+    siteName: "GF Expertise",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Archives des Non classé - GF Expertise",
+  },
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "category", "non-classe");

@@ -6,6 +6,21 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 export const metadata: Metadata = {
   title: "Expert en Bâtiment Pau, Béarn et Dax / Mont de Marsan,Landes",
   description: "GF Expertise est votre expert indépendant. Il prendra en charge votre dossier dans les cas de sinistre (innondation, dégât des eaux, incendie, tempête,..;etc) , désaccord avec votre assureur, ou malfaçon lors de travaux, litige avec un artisan, étude des contrats et devis de travaux avant la signature, conseils techniques, résolution amiable des litiges.",
+  alternates: { canonical: "https://gf-expertise.fr/expert-batiment/dax-landes/" },
+  openGraph: {
+    title: "Expert en Bâtiment Pau, Béarn et Dax / Mont de Marsan,Landes",
+    description: "GF Expertise est votre expert indépendant. Il prendra en charge votre dossier dans les cas de sinistre (innondation, dégât des eaux, incendie, tempête,..;etc) , désaccord avec votre assureur, ou malfaçon lors de travaux, litige avec un artisan, étude des contrats et devis de travaux avant la signature, conseils techniques, résolution amiable des litiges.",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/domolandes-gf-expertfise-2.jpg.png"],
+    siteName: "GF Expertise",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Expert en Bâtiment Pau, Béarn et Dax / Mont de Marsan,Landes",
+    description: "GF Expertise est votre expert indépendant. Il prendra en charge votre dossier dans les cas de sinistre (innondation, dégât des eaux, incendie, tempête,..;etc) , désaccord avec votre assureur, ou malfaçon lors de travaux, litige avec un artisan, étude des contrats et devis de travaux avant la signature, conseils techniques, résolution amiable des litiges.",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/domolandes-gf-expertfise-2.jpg.png"],
+  },
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "expert-batiment", "dax-landes");

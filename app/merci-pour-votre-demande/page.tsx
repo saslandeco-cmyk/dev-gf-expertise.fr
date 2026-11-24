@@ -6,6 +6,21 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 export const metadata: Metadata = {
   title: "Merci pour votre demande - GF Expertise",
   description: "Votre message a bien été envoyé.Je vous contacte dans les plus brefs délais.Merci de m’avoir sollicité !",
+  alternates: { canonical: "https://gf-expertise.fr/merci-pour-votre-demande/" },
+  openGraph: {
+    title: "Merci pour votre demande - GF Expertise",
+    description: "Votre message a bien été envoyé.Je vous contacte dans les plus brefs délais.Merci de m’avoir sollicité !",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2026/02/expertbatimentlandespaysbasque.png"],
+    siteName: "GF Expertise",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Merci pour votre demande - GF Expertise",
+    description: "Votre message a bien été envoyé.Je vous contacte dans les plus brefs délais.Merci de m’avoir sollicité !",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2026/02/expertbatimentlandespaysbasque.png"],
+  },
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "merci-pour-votre-demande");

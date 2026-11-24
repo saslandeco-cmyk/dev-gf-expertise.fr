@@ -6,6 +6,19 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 export const metadata: Metadata = {
   title: "Expert bâtiment DEPARTEMENT PYRENNEES-ATLANTIQUES – Expertise indépendante rapide - GF Expertise",
   description: "Expert Bâtiment DEPARTEMENT PYRENEES-ATLANTIQUES _ Expertise indépendante rapide Fissures, humidité, réception de travaux, malfaçons, ou litige pendant les travaux ? J’interviens rapidement dans les Pyrénées-Atlantiques et les Landes pour réaliser une expertise technique fiable et indépendante. Les missions de GF EXPERTISE: – Expertise fissures sur tout type de construction – Expertise humidité sur tout type […]",
+  alternates: { canonical: "https://gf-expertise.fr/gf-expertise-expert-technicien-en-batiment/expert-batiment-departement-landes-expertise-independante-rapide/" },
+  openGraph: {
+    title: "Expert bâtiment DEPARTEMENT PYRENNEES-ATLANTIQUES – Expertise indépendante rapide - GF Expertise",
+    description: "Expert Bâtiment DEPARTEMENT PYRENEES-ATLANTIQUES _ Expertise indépendante rapide Fissures, humidité, réception de travaux, malfaçons, ou litige pendant les travaux ? J’interviens rapidement dans les Pyrénées-Atlantiques et les Landes pour réaliser une expertise technique fiable et indépendante. Les missions de GF EXPERTISE: – Expertise fissures sur tout type de construction – Expertise humidité sur tout type […]",
+    siteName: "GF Expertise",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Expert bâtiment DEPARTEMENT PYRENNEES-ATLANTIQUES – Expertise indépendante rapide - GF Expertise",
+    description: "Expert Bâtiment DEPARTEMENT PYRENEES-ATLANTIQUES _ Expertise indépendante rapide Fissures, humidité, réception de travaux, malfaçons, ou litige pendant les travaux ? J’interviens rapidement dans les Pyrénées-Atlantiques et les Landes pour réaliser une expertise technique fiable et indépendante. Les missions de GF EXPERTISE: – Expertise fissures sur tout type de construction – Expertise humidité sur tout type […]",
+  },
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "gf-expertise-expert-technicien-en-batiment", "expert-batiment-departement-landes-expertise-independante-rapide");

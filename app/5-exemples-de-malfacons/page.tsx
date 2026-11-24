@@ -6,6 +6,21 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 export const metadata: Metadata = {
   title: "5 Exemples de malfaçons dans le bâtiment - GF Expertise",
   description: "Correspondant à la moitié des litiges immobiliers déclarés, les malfaçons peuvent avoir lieu aussi bien dans les travaux d’une construction neuve, ou dans la rénovation d’un logement ancien. Voici 5 cas rapportés par la presse, lesquels figurent parmi les plus marquants en matière de malfaçon immobilière. Dans le centre de Wattrelos – extrait de la […]",
+  alternates: { canonical: "https://gf-expertise.fr/5-exemples-de-malfacons/" },
+  openGraph: {
+    title: "5 Exemples de malfaçons dans le bâtiment - GF Expertise",
+    description: "Correspondant à la moitié des litiges immobiliers déclarés, les malfaçons peuvent avoir lieu aussi bien dans les travaux d’une construction neuve, ou dans la rénovation d’un logement ancien. Voici 5 cas rapportés par la presse, lesquels figurent parmi les plus marquants en matière de malfaçon immobilière. Dans le centre de Wattrelos – extrait de la […]",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/building-690177_1920.jpg"],
+    siteName: "GF Expertise",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "5 Exemples de malfaçons dans le bâtiment - GF Expertise",
+    description: "Correspondant à la moitié des litiges immobiliers déclarés, les malfaçons peuvent avoir lieu aussi bien dans les travaux d’une construction neuve, ou dans la rénovation d’un logement ancien. Voici 5 cas rapportés par la presse, lesquels figurent parmi les plus marquants en matière de malfaçon immobilière. Dans le centre de Wattrelos – extrait de la […]",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/building-690177_1920.jpg"],
+  },
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "5-exemples-de-malfacons");

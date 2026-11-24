@@ -6,6 +6,21 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 export const metadata: Metadata = {
   title: "Des fissures apparaissent ? Que faire ? - GF Expertise",
   description: "Vous constatez chez vous des fissures qui s’agrandissent ? Il est temps d’appeler un expert en construction qui va définir un problème structurel en identifiant sa cause et en répartissant les responsabilités, d’un tiers en général. Vous trouverez ici un exemple de diagnostique rélative à un affaissement de la dalle en raison d’infiltration d’eau provenant […]",
+  alternates: { canonical: "https://gf-expertise.fr/fissures-infiltrations/" },
+  openGraph: {
+    title: "Des fissures apparaissent ? Que faire ? - GF Expertise",
+    description: "Vous constatez chez vous des fissures qui s’agrandissent ? Il est temps d’appeler un expert en construction qui va définir un problème structurel en identifiant sa cause et en répartissant les responsabilités, d’un tiers en général. Vous trouverez ici un exemple de diagnostique rélative à un affaissement de la dalle en raison d’infiltration d’eau provenant […]",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2021/11/fissurre.jpg"],
+    siteName: "GF Expertise",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Des fissures apparaissent ? Que faire ? - GF Expertise",
+    description: "Vous constatez chez vous des fissures qui s’agrandissent ? Il est temps d’appeler un expert en construction qui va définir un problème structurel en identifiant sa cause et en répartissant les responsabilités, d’un tiers en général. Vous trouverez ici un exemple de diagnostique rélative à un affaissement de la dalle en raison d’infiltration d’eau provenant […]",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2021/11/fissurre.jpg"],
+  },
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "fissures-infiltrations");

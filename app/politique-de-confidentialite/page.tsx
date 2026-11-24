@@ -6,6 +6,19 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 export const metadata: Metadata = {
   title: "Protection des données personnelles - GF Expertise",
   description: "Politique de protection des données I – Objectifs et champ d’application Les termes commençant par une majuscule utilisés dans la présente Politique de protection des Données personnelles (ci-après la « Politique ») sont définis dans l’Annexe 1 « Définitions ». 1. Objectifs de la Politique Gf-expertise accorde la plus grande importance et le plus grand […]",
+  alternates: { canonical: "https://gf-expertise.fr/politique-de-confidentialite/" },
+  openGraph: {
+    title: "Protection des données personnelles - GF Expertise",
+    description: "Politique de protection des données I – Objectifs et champ d’application Les termes commençant par une majuscule utilisés dans la présente Politique de protection des Données personnelles (ci-après la « Politique ») sont définis dans l’Annexe 1 « Définitions ». 1. Objectifs de la Politique Gf-expertise accorde la plus grande importance et le plus grand […]",
+    siteName: "GF Expertise",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Protection des données personnelles - GF Expertise",
+    description: "Politique de protection des données I – Objectifs et champ d’application Les termes commençant par une majuscule utilisés dans la présente Politique de protection des Données personnelles (ci-après la « Politique ») sont définis dans l’Annexe 1 « Définitions ». 1. Objectifs de la Politique Gf-expertise accorde la plus grande importance et le plus grand […]",
+  },
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "politique-de-confidentialite");

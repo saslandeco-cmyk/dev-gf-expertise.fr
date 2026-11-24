@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
+import { SITE_URL } from "@/lib/site-url";
 
 export default async function BlogPost({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -31,5 +32,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = await prisma.post.findUnique({ where: { slug } }).catch(() => null);
-  return { title: post ? `${post.title} - GF Expertise` : "Article" };
+  if (!post) return { title: "Article" };
+  return {
+    title: `${post.title} - GF Expertise`,
+    description: post.excerpt ?? undefined,
+    alternates: { canonical: `${SITE_URL}/blog/${slug}/` },
+  };
 }

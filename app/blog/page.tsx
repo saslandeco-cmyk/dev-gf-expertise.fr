@@ -1,7 +1,12 @@
 import Link from "next/link";
 import { prisma } from "@/lib/prisma";
+import { SITE_URL } from "@/lib/site-url";
 
-export const metadata = { title: "Blog - GF Expertise" };
+export const metadata = {
+  title: "Blog - GF Expertise",
+  description: "Articles, actualités et conseils d'un expert en bâtiment indépendant sur les malfaçons, fissures, litiges travaux et vices cachés.",
+  alternates: { canonical: `${SITE_URL}/blog/` },
+};
 
 export default async function BlogIndex() {
   let posts: Awaited<ReturnType<typeof prisma.post.findMany>> = [];

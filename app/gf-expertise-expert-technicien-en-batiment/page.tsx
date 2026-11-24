@@ -6,6 +6,21 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 export const metadata: Metadata = {
   title: "GF Expertise : Expert en Batiment Bayonne, Pays Basque, Landes",
   description: "Expert en Contruction Bayonne, Pays Basque - Landes et Pau, Béarn. GF EXPERTISE, représenté par M. GAUTHIER Frédéric est un expert d'assuré indépendant, impartial et objectif. GF EXPERTISE c’est plus de 25 ans d’expériences dans le bâtiment et plus particulièrement dans les disciplines suivantes : Expertise technique bâtiment, Audit technique immobilier, Assistance au maître d’ouvrage (client), l’économie de la construction et la maîtrise d’œuvre d’exécution.Expert en sinistres, malfaçons, fissures, litige, conseils avant achat ou travaux.",
+  alternates: { canonical: "https://gf-expertise.fr/gf-expertise-expert-technicien-en-batiment/" },
+  openGraph: {
+    title: "GF Expertise : Expert en Batiment Bayonne, Pays Basque, Landes",
+    description: "Expert en Contruction Bayonne, Pays Basque - Landes et Pau, Béarn. GF EXPERTISE, représenté par M. GAUTHIER Frédéric est un expert d'assuré indépendant, impartial et objectif. GF EXPERTISE c’est plus de 25 ans d’expériences dans le bâtiment et plus particulièrement dans les disciplines suivantes : Expertise technique bâtiment, Audit technique immobilier, Assistance au maître d’ouvrage (client), l’économie de la construction et la maîtrise d’œuvre d’exécution.Expert en sinistres, malfaçons, fissures, litige, conseils avant achat ou travaux.",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2020/03/avis-page-jaune-gf-expertise-.jpg"],
+    siteName: "GF Expertise",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "GF Expertise : Expert en Batiment Bayonne, Pays Basque, Landes",
+    description: "Expert en Contruction Bayonne, Pays Basque - Landes et Pau, Béarn. GF EXPERTISE, représenté par M. GAUTHIER Frédéric est un expert d'assuré indépendant, impartial et objectif. GF EXPERTISE c’est plus de 25 ans d’expériences dans le bâtiment et plus particulièrement dans les disciplines suivantes : Expertise technique bâtiment, Audit technique immobilier, Assistance au maître d’ouvrage (client), l’économie de la construction et la maîtrise d’œuvre d’exécution.Expert en sinistres, malfaçons, fissures, litige, conseils avant achat ou travaux.",
+    images: ["https://gf-expertise.fr/wp-content/uploads/2020/03/avis-page-jaune-gf-expertise-.jpg"],
+  },
 };
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "gf-expertise-expert-technicien-en-batiment");
