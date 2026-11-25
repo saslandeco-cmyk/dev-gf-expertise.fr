@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Formation Aux Techniques du Bâtiment pour les Agents Immobiliers - GF Expertise",
-  description: "L’agent immobilier se doit de maîtriser le vocabulaire et connaître techniquement son produit. Dans cette formation sur les techniques du bâtiment réalisée pour le compte de l’organisme de formation en ligne Alur Magma, vous allez appréhender le volet technique mais également la réglementation thermique, les études techniques avant projet, les formalités techniques d’achèvement des travaux… […]",
+  description: "Formation aux techniques du bâtiment pour les agents immobiliers : vocabulaire technique, réglementation thermique et garantie décennale.",
   alternates: { canonical: "https://gf-expertise.fr/formations/" },
   openGraph: {
     title: "Formation Aux Techniques du Bâtiment pour les Agents Immobiliers - GF Expertise",
-    description: "L’agent immobilier se doit de maîtriser le vocabulaire et connaître techniquement son produit. Dans cette formation sur les techniques du bâtiment réalisée pour le compte de l’organisme de formation en ligne Alur Magma, vous allez appréhender le volet technique mais également la réglementation thermique, les études techniques avant projet, les formalités techniques d’achèvement des travaux… […]",
+    description: "Formation aux techniques du bâtiment pour les agents immobiliers : vocabulaire technique, réglementation thermique et garantie décennale.",
     siteName: "GF Expertise",
     locale: "fr_FR",
     type: "website",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Formation Aux Techniques du Bâtiment pour les Agents Immobiliers - GF Expertise",
-    description: "L’agent immobilier se doit de maîtriser le vocabulaire et connaître techniquement son produit. Dans cette formation sur les techniques du bâtiment réalisée pour le compte de l’organisme de formation en ligne Alur Magma, vous allez appréhender le volet technique mais également la réglementation thermique, les études techniques avant projet, les formalités techniques d’achèvement des travaux… […]",
+    description: "Formation aux techniques du bâtiment pour les agents immobiliers : vocabulaire technique, réglementation thermique et garantie décennale.",
   },
 };
 

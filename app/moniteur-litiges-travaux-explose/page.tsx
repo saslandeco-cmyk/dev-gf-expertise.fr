@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Le moniteur : le nombre de litiges par travaux explose - GF Expertise",
-  description: "Selon, le moniteur du bâtiment, le e nombre de litiges dans les travaux de construction et de rénovation a considérablement augmenté ces dernières années. Désormais, bon nombre de chantiers subissent deux, voire trois litiges à la fois. Les causes en sont multiples, mais les plus fréquentes sont les retards de réalisation, les abandons de chantier […]",
+  description: "Le nombre de litiges liés aux travaux de construction explose en France : retards, abandons de chantier et malfaçons, selon une étude CLCV.",
   alternates: { canonical: "https://gf-expertise.fr/moniteur-litiges-travaux-explose/" },
   openGraph: {
     title: "Le moniteur : le nombre de litiges par travaux explose - GF Expertise",
-    description: "Selon, le moniteur du bâtiment, le e nombre de litiges dans les travaux de construction et de rénovation a considérablement augmenté ces dernières années. Désormais, bon nombre de chantiers subissent deux, voire trois litiges à la fois. Les causes en sont multiples, mais les plus fréquentes sont les retards de réalisation, les abandons de chantier […]",
+    description: "Le nombre de litiges liés aux travaux de construction explose en France : retards, abandons de chantier et malfaçons, selon une étude CLCV.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/litiges-batiment2-e1582049851406.jpg"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Le moniteur : le nombre de litiges par travaux explose - GF Expertise",
-    description: "Selon, le moniteur du bâtiment, le e nombre de litiges dans les travaux de construction et de rénovation a considérablement augmenté ces dernières années. Désormais, bon nombre de chantiers subissent deux, voire trois litiges à la fois. Les causes en sont multiples, mais les plus fréquentes sont les retards de réalisation, les abandons de chantier […]",
+    description: "Le nombre de litiges liés aux travaux de construction explose en France : retards, abandons de chantier et malfaçons, selon une étude CLCV.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/litiges-batiment2-e1582049851406.jpg"],
   },
 };

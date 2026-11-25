@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Pourquoi confier l’analyse de vos devis à un expert en bâtiment avant de lancer les travaux ? - GF Expertise",
-  description: "Confier l’analyse de vos devis à un expert en bâtiment avant de lancer les travaux Qu’il s’agisse de rénover un logement, de remplacer une toiture, de moderniser une salle de bains ou d’agrandir une maison, un projet de travaux nécessite une préparation rigoureuse. Avant de retenir une entreprise, il est naturel de comparer les prix. […]",
+  description: "Pourquoi faire analyser vos devis de travaux par un expert en bâtiment avant de signer : prestations, cohérence et points de vigilance.",
   alternates: { canonical: "https://gf-expertise.fr/confier-lanalyse-de-vos-devis-a-un-expert-en-batiment-avant-de-lancer-les-travaux/" },
   openGraph: {
     title: "Pourquoi confier l’analyse de vos devis à un expert en bâtiment avant de lancer les travaux ? - GF Expertise",
-    description: "Confier l’analyse de vos devis à un expert en bâtiment avant de lancer les travaux Qu’il s’agisse de rénover un logement, de remplacer une toiture, de moderniser une salle de bains ou d’agrandir une maison, un projet de travaux nécessite une préparation rigoureuse. Avant de retenir une entreprise, il est naturel de comparer les prix. […]",
+    description: "Pourquoi faire analyser vos devis de travaux par un expert en bâtiment avant de signer : prestations, cohérence et points de vigilance.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2026/10/Analyse-experte-des-devis-et-plans.png"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pourquoi confier l’analyse de vos devis à un expert en bâtiment avant de lancer les travaux ? - GF Expertise",
-    description: "Confier l’analyse de vos devis à un expert en bâtiment avant de lancer les travaux Qu’il s’agisse de rénover un logement, de remplacer une toiture, de moderniser une salle de bains ou d’agrandir une maison, un projet de travaux nécessite une préparation rigoureuse. Avant de retenir une entreprise, il est naturel de comparer les prix. […]",
+    description: "Pourquoi faire analyser vos devis de travaux par un expert en bâtiment avant de signer : prestations, cohérence et points de vigilance.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2026/10/Analyse-experte-des-devis-et-plans.png"],
   },
 };

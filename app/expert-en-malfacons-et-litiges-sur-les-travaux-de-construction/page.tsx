@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Expert en malfaçons et litiges sur les travaux de construction - GF Expertise",
-  description: "Le nombre de litiges explose en matière de construction. Entre les retards et les abandons de chantiers, les cas de malfaçons, de non-conformité des travaux, d’absence de levée de réserves, de dépôts de bilan de la part des entrepreneurs…  l’expertise des désordres et malfaçons dans le bâtiment est de plus en plus une nécessité qu’un […]",
+  description: "Litiges et malfaçons dans la construction : pourquoi l'expertise indépendante est devenue incontournable dès le début des chantiers.",
   alternates: { canonical: "https://gf-expertise.fr/expert-en-malfacons-et-litiges-sur-les-travaux-de-construction/" },
   openGraph: {
     title: "Expert en malfaçons et litiges sur les travaux de construction - GF Expertise",
-    description: "Le nombre de litiges explose en matière de construction. Entre les retards et les abandons de chantiers, les cas de malfaçons, de non-conformité des travaux, d’absence de levée de réserves, de dépôts de bilan de la part des entrepreneurs…  l’expertise des désordres et malfaçons dans le bâtiment est de plus en plus une nécessité qu’un […]",
+    description: "Litiges et malfaçons dans la construction : pourquoi l'expertise indépendante est devenue incontournable dès le début des chantiers.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/litiges-batiment2-e1582049851406.jpg"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Expert en malfaçons et litiges sur les travaux de construction - GF Expertise",
-    description: "Le nombre de litiges explose en matière de construction. Entre les retards et les abandons de chantiers, les cas de malfaçons, de non-conformité des travaux, d’absence de levée de réserves, de dépôts de bilan de la part des entrepreneurs…  l’expertise des désordres et malfaçons dans le bâtiment est de plus en plus une nécessité qu’un […]",
+    description: "Litiges et malfaçons dans la construction : pourquoi l'expertise indépendante est devenue incontournable dès le début des chantiers.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/litiges-batiment2-e1582049851406.jpg"],
   },
 };

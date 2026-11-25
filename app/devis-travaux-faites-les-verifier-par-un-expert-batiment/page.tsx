@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Devis travaux : faites-les vérifier par un expert bâtiment - GF Expertise",
-  description: "Pourquoi faire vérifier ses devis par un expert en bâtiment avant les travaux ? Préparer une rénovation, refaire une toiture, aménager une salle de bains ou réaliser une extension représente un engagement important. Avant de choisir une entreprise, les particuliers comparent généralement les montants proposés. Mais un devis doit aussi être examiné pour ce qu’il […]",
+  description: "Devis travaux : pourquoi les faire vérifier par un expert bâtiment avant de signer, pour s'assurer qu'ils correspondent à vos besoins.",
   alternates: { canonical: "https://gf-expertise.fr/devis-travaux-faites-les-verifier-par-un-expert-batiment/" },
   openGraph: {
     title: "Devis travaux : faites-les vérifier par un expert bâtiment - GF Expertise",
-    description: "Pourquoi faire vérifier ses devis par un expert en bâtiment avant les travaux ? Préparer une rénovation, refaire une toiture, aménager une salle de bains ou réaliser une extension représente un engagement important. Avant de choisir une entreprise, les particuliers comparent généralement les montants proposés. Mais un devis doit aussi être examiné pour ce qu’il […]",
+    description: "Devis travaux : pourquoi les faire vérifier par un expert bâtiment avant de signer, pour s'assurer qu'ils correspondent à vos besoins.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2026/10/Analyse-experte-des-devis-et-plans.png"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Devis travaux : faites-les vérifier par un expert bâtiment - GF Expertise",
-    description: "Pourquoi faire vérifier ses devis par un expert en bâtiment avant les travaux ? Préparer une rénovation, refaire une toiture, aménager une salle de bains ou réaliser une extension représente un engagement important. Avant de choisir une entreprise, les particuliers comparent généralement les montants proposés. Mais un devis doit aussi être examiné pour ce qu’il […]",
+    description: "Devis travaux : pourquoi les faire vérifier par un expert bâtiment avant de signer, pour s'assurer qu'ils correspondent à vos besoins.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2026/10/Analyse-experte-des-devis-et-plans.png"],
   },
 };

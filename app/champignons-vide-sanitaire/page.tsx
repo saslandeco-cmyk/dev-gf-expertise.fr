@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Problème d'humidité : des champignons dans le vide sanitaire - GF Expertise",
-  description: "Lors de l’achat d’une maison de plain-pieds en bois réalisée en « auto-construction », les nouveaux propriétaires ont constaté des dégâts structurels au niveau du plancher d’une chambre et l’infiltration d’eau devant la baie vitrée du salon quelques semaines suivant la date de leur acquisition. Le nouvel acquéreur fait appel à un expert en construction […]",
+  description: "Champignons dans le vide sanitaire après l'achat d'une maison : étude de cas d'un expert en bâtiment indépendant à Pau, Béarn.",
   alternates: { canonical: "https://gf-expertise.fr/champignons-vide-sanitaire/" },
   openGraph: {
     title: "Problème d'humidité : des champignons dans le vide sanitaire - GF Expertise",
-    description: "Lors de l’achat d’une maison de plain-pieds en bois réalisée en « auto-construction », les nouveaux propriétaires ont constaté des dégâts structurels au niveau du plancher d’une chambre et l’infiltration d’eau devant la baie vitrée du salon quelques semaines suivant la date de leur acquisition. Le nouvel acquéreur fait appel à un expert en construction […]",
+    description: "Champignons dans le vide sanitaire après l'achat d'une maison : étude de cas d'un expert en bâtiment indépendant à Pau, Béarn.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/log-cabin-1886620_1920.jpg"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Problème d'humidité : des champignons dans le vide sanitaire - GF Expertise",
-    description: "Lors de l’achat d’une maison de plain-pieds en bois réalisée en « auto-construction », les nouveaux propriétaires ont constaté des dégâts structurels au niveau du plancher d’une chambre et l’infiltration d’eau devant la baie vitrée du salon quelques semaines suivant la date de leur acquisition. Le nouvel acquéreur fait appel à un expert en construction […]",
+    description: "Champignons dans le vide sanitaire après l'achat d'une maison : étude de cas d'un expert en bâtiment indépendant à Pau, Béarn.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/log-cabin-1886620_1920.jpg"],
   },
 };

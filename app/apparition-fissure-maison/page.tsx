@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Apparition de Fissures après achat d une Maison: vice caché ? - GF Expertise",
-  description: "Le requérant, maître d’ouvrage, a souhaité l’avis de Frédéric GAUTHIER, Expert en Bâtiment à Dax, afin de prendre constat des désordres et de ses allégations. Voici la trame que suit votre expert en construction. Ci-après mes constats et avis: Pour constater des fissures et des infiltrations d’eau sur son habitation. La mission de l’expert sera […]",
+  description: "Fissures découvertes après l'achat d'une maison : vice caché ou non ? Étude de cas par Frédéric Gauthier, expert en bâtiment à Dax.",
   alternates: { canonical: "https://gf-expertise.fr/apparition-fissure-maison/" },
   openGraph: {
     title: "Apparition de Fissures après achat d une Maison: vice caché ? - GF Expertise",
-    description: "Le requérant, maître d’ouvrage, a souhaité l’avis de Frédéric GAUTHIER, Expert en Bâtiment à Dax, afin de prendre constat des désordres et de ses allégations. Voici la trame que suit votre expert en construction. Ci-après mes constats et avis: Pour constater des fissures et des infiltrations d’eau sur son habitation. La mission de l’expert sera […]",
+    description: "Fissures découvertes après l'achat d'une maison : vice caché ou non ? Étude de cas par Frédéric Gauthier, expert en bâtiment à Dax.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/12/fissure-maison-individuelle.jpg"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Apparition de Fissures après achat d une Maison: vice caché ? - GF Expertise",
-    description: "Le requérant, maître d’ouvrage, a souhaité l’avis de Frédéric GAUTHIER, Expert en Bâtiment à Dax, afin de prendre constat des désordres et de ses allégations. Voici la trame que suit votre expert en construction. Ci-après mes constats et avis: Pour constater des fissures et des infiltrations d’eau sur son habitation. La mission de l’expert sera […]",
+    description: "Fissures découvertes après l'achat d'une maison : vice caché ou non ? Étude de cas par Frédéric Gauthier, expert en bâtiment à Dax.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/12/fissure-maison-individuelle.jpg"],
   },
 };

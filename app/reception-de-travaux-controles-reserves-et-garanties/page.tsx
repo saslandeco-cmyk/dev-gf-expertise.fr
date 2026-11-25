@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Réception de travaux : contrôles, réserves et garanties - GF Expertise",
-  description: "Découvrez les contrôles à effectuer, comment rédiger des réserves précises et pourquoi se faire accompagner par un expert bâtiment. La réception de travaux n’est pas une simple remise de clés. C’est l’acte par lequel le maître d’ouvrage accepte les travaux réalisés, avec ou sans réserves. Cette étape marque officiellement la fin du chantier et constitue […]",
+  description: "Réception de travaux : quels contrôles effectuer, comment rédiger des réserves précises et pourquoi se faire accompagner par un expert.",
   alternates: { canonical: "https://gf-expertise.fr/reception-de-travaux-controles-reserves-et-garanties/" },
   openGraph: {
     title: "Réception de travaux : contrôles, réserves et garanties - GF Expertise",
-    description: "Découvrez les contrôles à effectuer, comment rédiger des réserves précises et pourquoi se faire accompagner par un expert bâtiment. La réception de travaux n’est pas une simple remise de clés. C’est l’acte par lequel le maître d’ouvrage accepte les travaux réalisés, avec ou sans réserves. Cette étape marque officiellement la fin du chantier et constitue […]",
+    description: "Réception de travaux : quels contrôles effectuer, comment rédiger des réserves précises et pourquoi se faire accompagner par un expert.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2026/10/Controle-expert-de-la-baie-vitree-1024x576.png"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Réception de travaux : contrôles, réserves et garanties - GF Expertise",
-    description: "Découvrez les contrôles à effectuer, comment rédiger des réserves précises et pourquoi se faire accompagner par un expert bâtiment. La réception de travaux n’est pas une simple remise de clés. C’est l’acte par lequel le maître d’ouvrage accepte les travaux réalisés, avec ou sans réserves. Cette étape marque officiellement la fin du chantier et constitue […]",
+    description: "Réception de travaux : quels contrôles effectuer, comment rédiger des réserves précises et pourquoi se faire accompagner par un expert.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2026/10/Controle-expert-de-la-baie-vitree-1024x576.png"],
   },
 };

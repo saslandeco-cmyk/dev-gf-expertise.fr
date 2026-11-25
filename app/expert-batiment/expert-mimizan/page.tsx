@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Expert bâtiment à Dax – Expertise indépendante rapide - GF Expertise",
-  description: "Expert Bâtiment DAX – Expertise indépendante rapide Fissures, humidité, réception de travaux, malfaçons, ou litige pendant les travaux ? J’interviens rapidement à Dax et dans le sud des Landes pour réaliser une expertise technique fiable et indépendante. Les missions de GF EXPERTISE: – Expertise fissures maison – Expertise humidité maison – Expertise sinistre – Analyse […]",
+  description: "Expert bâtiment indépendant à Dax et dans le sud des Landes : fissures, humidité, malfaçons, réception de travaux. Intervention rapide.",
   alternates: { canonical: "https://gf-expertise.fr/expert-batiment/expert-mimizan/" },
   openGraph: {
     title: "Expert bâtiment à Dax – Expertise indépendante rapide - GF Expertise",
-    description: "Expert Bâtiment DAX – Expertise indépendante rapide Fissures, humidité, réception de travaux, malfaçons, ou litige pendant les travaux ? J’interviens rapidement à Dax et dans le sud des Landes pour réaliser une expertise technique fiable et indépendante. Les missions de GF EXPERTISE: – Expertise fissures maison – Expertise humidité maison – Expertise sinistre – Analyse […]",
+    description: "Expert bâtiment indépendant à Dax et dans le sud des Landes : fissures, humidité, malfaçons, réception de travaux. Intervention rapide.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/12/Capture-decran-2020-12-16-133704.png"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Expert bâtiment à Dax – Expertise indépendante rapide - GF Expertise",
-    description: "Expert Bâtiment DAX – Expertise indépendante rapide Fissures, humidité, réception de travaux, malfaçons, ou litige pendant les travaux ? J’interviens rapidement à Dax et dans le sud des Landes pour réaliser une expertise technique fiable et indépendante. Les missions de GF EXPERTISE: – Expertise fissures maison – Expertise humidité maison – Expertise sinistre – Analyse […]",
+    description: "Expert bâtiment indépendant à Dax et dans le sud des Landes : fissures, humidité, malfaçons, réception de travaux. Intervention rapide.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/12/Capture-decran-2020-12-16-133704.png"],
   },
 };

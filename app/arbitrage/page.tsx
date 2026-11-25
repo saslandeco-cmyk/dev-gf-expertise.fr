@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Arbitrage Litiges Travaux et Problèmes de Construction - GF Expertise",
-  description: "Arbitrage Litiges Travaux et Problèmes de Construction L’arbitrage est un Mode Alternatif de Règlement de Différent (MARD). L’arbitrage est une justice privée payante, volontaire et conventionnelle grâce à laquelle, les conflits sont soustraits aux juridictions étatiques (les tribunaux) pour être soumis à des arbitres ayant la mission de juger. L’arbitrage consiste à soumettre un litige, […]",
+  description: "L'arbitrage, mode alternatif de règlement des litiges de travaux et de construction : principe, déroulement et quand y recourir.",
   alternates: { canonical: "https://gf-expertise.fr/arbitrage/" },
   openGraph: {
     title: "Arbitrage Litiges Travaux et Problèmes de Construction - GF Expertise",
-    description: "Arbitrage Litiges Travaux et Problèmes de Construction L’arbitrage est un Mode Alternatif de Règlement de Différent (MARD). L’arbitrage est une justice privée payante, volontaire et conventionnelle grâce à laquelle, les conflits sont soustraits aux juridictions étatiques (les tribunaux) pour être soumis à des arbitres ayant la mission de juger. L’arbitrage consiste à soumettre un litige, […]",
+    description: "L'arbitrage, mode alternatif de règlement des litiges de travaux et de construction : principe, déroulement et quand y recourir.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2017/10/purchase-3113198_1920.jpg"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Arbitrage Litiges Travaux et Problèmes de Construction - GF Expertise",
-    description: "Arbitrage Litiges Travaux et Problèmes de Construction L’arbitrage est un Mode Alternatif de Règlement de Différent (MARD). L’arbitrage est une justice privée payante, volontaire et conventionnelle grâce à laquelle, les conflits sont soustraits aux juridictions étatiques (les tribunaux) pour être soumis à des arbitres ayant la mission de juger. L’arbitrage consiste à soumettre un litige, […]",
+    description: "L'arbitrage, mode alternatif de règlement des litiges de travaux et de construction : principe, déroulement et quand y recourir.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2017/10/purchase-3113198_1920.jpg"],
   },
 };

@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Foire aux questions - GF Expertise",
-  description: "Vous vous posez des questions ? Voici quelques réponses… Vous trouverez ci-dessous les réponses aux questions les plus fréquentes concernant le métier d’expert en bâtiment et ses fonctions. Si vous ne trouvez toujours pas la réponse à votre question, contactez-moi ! Quelle est la différence entre un expert bâtiment indépendant, un expert d’assurance, un expert […]",
+  description: "Expert bâtiment indépendant, expert d'assurance, expert judiciaire : quelles différences ? Réponses aux questions les plus fréquentes.",
   alternates: { canonical: "https://gf-expertise.fr/foire-aux-questions/" },
   openGraph: {
     title: "Foire aux questions - GF Expertise",
-    description: "Vous vous posez des questions ? Voici quelques réponses… Vous trouverez ci-dessous les réponses aux questions les plus fréquentes concernant le métier d’expert en bâtiment et ses fonctions. Si vous ne trouvez toujours pas la réponse à votre question, contactez-moi ! Quelle est la différence entre un expert bâtiment indépendant, un expert d’assurance, un expert […]",
+    description: "Expert bâtiment indépendant, expert d'assurance, expert judiciaire : quelles différences ? Réponses aux questions les plus fréquentes.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2026/02/mystery-box-with-gifts-concept-scaled.jpg"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Foire aux questions - GF Expertise",
-    description: "Vous vous posez des questions ? Voici quelques réponses… Vous trouverez ci-dessous les réponses aux questions les plus fréquentes concernant le métier d’expert en bâtiment et ses fonctions. Si vous ne trouvez toujours pas la réponse à votre question, contactez-moi ! Quelle est la différence entre un expert bâtiment indépendant, un expert d’assurance, un expert […]",
+    description: "Expert bâtiment indépendant, expert d'assurance, expert judiciaire : quelles différences ? Réponses aux questions les plus fréquentes.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2026/02/mystery-box-with-gifts-concept-scaled.jpg"],
   },
 };

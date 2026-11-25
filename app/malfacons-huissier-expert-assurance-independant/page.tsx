@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Malfaçons : faut-il contacter un huissier, un expert d’assurance ou un indépendant ? - GF Expertise",
-  description: "Malfaçons : faut-il contacter un huissier, un expert d’assurance ou un indépendant ? Malfaçons : faut-il contacter un huissier, un expert d’assurance ou un indépendant ? Détecter une malfaçon n’est pas à la portée de tous ! En effet sans connaissance technique spécifique dans le bâtiment, il est impossible d’identifier les problèmes non visibles et […]",
+  description: "Malfaçons : huissier, expert d'assurance ou expert indépendant ? Comprendre qui contacter pour défendre réellement vos intérêts.",
   alternates: { canonical: "https://gf-expertise.fr/malfacons-huissier-expert-assurance-independant/" },
   openGraph: {
     title: "Malfaçons : faut-il contacter un huissier, un expert d’assurance ou un indépendant ? - GF Expertise",
-    description: "Malfaçons : faut-il contacter un huissier, un expert d’assurance ou un indépendant ? Malfaçons : faut-il contacter un huissier, un expert d’assurance ou un indépendant ? Détecter une malfaçon n’est pas à la portée de tous ! En effet sans connaissance technique spécifique dans le bâtiment, il est impossible d’identifier les problèmes non visibles et […]",
+    description: "Malfaçons : huissier, expert d'assurance ou expert indépendant ? Comprendre qui contacter pour défendre réellement vos intérêts.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/GF-exertise.png"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Malfaçons : faut-il contacter un huissier, un expert d’assurance ou un indépendant ? - GF Expertise",
-    description: "Malfaçons : faut-il contacter un huissier, un expert d’assurance ou un indépendant ? Malfaçons : faut-il contacter un huissier, un expert d’assurance ou un indépendant ? Détecter une malfaçon n’est pas à la portée de tous ! En effet sans connaissance technique spécifique dans le bâtiment, il est impossible d’identifier les problèmes non visibles et […]",
+    description: "Malfaçons : huissier, expert d'assurance ou expert indépendant ? Comprendre qui contacter pour défendre réellement vos intérêts.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/GF-exertise.png"],
   },
 };

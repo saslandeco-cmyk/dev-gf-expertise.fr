@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Etude de cas : Dossier Fissures - GF Expertise",
-  description: "Sur la demande d’un maitre d’ouvrage, GF EXPERTISE est missionné pour diagnostiquer un cas de fissures et pour établir un rapport de constat afin de définir l’évolution d’un sinistre révélé précédemment par un expert d’assurance. Ainsi 4 ans après l’expertise initiale, plusieurs nouvelles fissures ont été détectées, outre un élargissement de l’amplitude et un allongement […]",
+  description: "Étude de cas : évolution d'un dossier fissures 4 ans après une première expertise d'assurance, par un expert en bâtiment indépendant.",
   alternates: { canonical: "https://gf-expertise.fr/etude-de-cas-dossier-fissures/" },
   openGraph: {
     title: "Etude de cas : Dossier Fissures - GF Expertise",
-    description: "Sur la demande d’un maitre d’ouvrage, GF EXPERTISE est missionné pour diagnostiquer un cas de fissures et pour établir un rapport de constat afin de définir l’évolution d’un sinistre révélé précédemment par un expert d’assurance. Ainsi 4 ans après l’expertise initiale, plusieurs nouvelles fissures ont été détectées, outre un élargissement de l’amplitude et un allongement […]",
+    description: "Étude de cas : évolution d'un dossier fissures 4 ans après une première expertise d'assurance, par un expert en bâtiment indépendant.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/crack-695010_1920.jpg"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Etude de cas : Dossier Fissures - GF Expertise",
-    description: "Sur la demande d’un maitre d’ouvrage, GF EXPERTISE est missionné pour diagnostiquer un cas de fissures et pour établir un rapport de constat afin de définir l’évolution d’un sinistre révélé précédemment par un expert d’assurance. Ainsi 4 ans après l’expertise initiale, plusieurs nouvelles fissures ont été détectées, outre un élargissement de l’amplitude et un allongement […]",
+    description: "Étude de cas : évolution d'un dossier fissures 4 ans après une première expertise d'assurance, par un expert en bâtiment indépendant.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/02/crack-695010_1920.jpg"],
   },
 };

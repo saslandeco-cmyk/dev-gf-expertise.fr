@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Expert bâtiment à Biscarrosse – Expertise indépendante rapide - GF Expertise",
-  description: "Expert Bâtiment BISCARROSSE _ Expertise indépendante rapide Fissures, humidité, réception de travaux, malfaçons, ou litige pendant les travaux ? J’interviens rapidement à BISCARROSSE et dans le sud des Landes pour réaliser une expertise technique fiable et indépendante. Les missions de GF EXPERTISE: – Expertise fissures et humidité dans les maisons – Expertise sinistre sur immeuble […]",
+  description: "Expert bâtiment indépendant à Biscarrosse : fissures, humidité, malfaçons, réception de travaux. Expertise technique fiable et rapide.",
   alternates: { canonical: "https://gf-expertise.fr/gf-expertise-expert-technicien-en-batiment/expert-batiment-a-biscarrosse-expertise-independante-rapide/" },
   openGraph: {
     title: "Expert bâtiment à Biscarrosse – Expertise indépendante rapide - GF Expertise",
-    description: "Expert Bâtiment BISCARROSSE _ Expertise indépendante rapide Fissures, humidité, réception de travaux, malfaçons, ou litige pendant les travaux ? J’interviens rapidement à BISCARROSSE et dans le sud des Landes pour réaliser une expertise technique fiable et indépendante. Les missions de GF EXPERTISE: – Expertise fissures et humidité dans les maisons – Expertise sinistre sur immeuble […]",
+    description: "Expert bâtiment indépendant à Biscarrosse : fissures, humidité, malfaçons, réception de travaux. Expertise technique fiable et rapide.",
     siteName: "GF Expertise",
     locale: "fr_FR",
     type: "website",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Expert bâtiment à Biscarrosse – Expertise indépendante rapide - GF Expertise",
-    description: "Expert Bâtiment BISCARROSSE _ Expertise indépendante rapide Fissures, humidité, réception de travaux, malfaçons, ou litige pendant les travaux ? J’interviens rapidement à BISCARROSSE et dans le sud des Landes pour réaliser une expertise technique fiable et indépendante. Les missions de GF EXPERTISE: – Expertise fissures et humidité dans les maisons – Expertise sinistre sur immeuble […]",
+    description: "Expert bâtiment indépendant à Biscarrosse : fissures, humidité, malfaçons, réception de travaux. Expertise technique fiable et rapide.",
   },
 };
 

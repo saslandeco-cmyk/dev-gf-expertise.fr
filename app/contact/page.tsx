@@ -5,12 +5,12 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Contact - GF Expertise",
-  description: "Besoins de conseils ou d’un accompagnement ? Malfaçons, expertises avant achat, litiges avec une entreprise, suspicions de vices cachés, sinistres ou désaccord avec un assureur… Expert en bâtiment pour particuliers et professionnels Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire.Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire. Identité : * PrénomNom […]",
+  description: "Besoin de conseils ou d'un accompagnement ? Malfaçons, vices cachés, litiges travaux : contactez Frédéric Gauthier, expert en bâtiment indépendant.",
   alternates: { canonical: "https://gf-expertise.fr/contact/" },
   robots: { index: false, follow: false },
   openGraph: {
     title: "Contact - GF Expertise",
-    description: "Besoins de conseils ou d’un accompagnement ? Malfaçons, expertises avant achat, litiges avec une entreprise, suspicions de vices cachés, sinistres ou désaccord avec un assureur… Expert en bâtiment pour particuliers et professionnels Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire.Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire. Identité : * PrénomNom […]",
+    description: "Besoin de conseils ou d'un accompagnement ? Malfaçons, vices cachés, litiges travaux : contactez Frédéric Gauthier, expert en bâtiment indépendant.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2026/02/expertbatimentlandespaysbasque.png"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Contact - GF Expertise",
-    description: "Besoins de conseils ou d’un accompagnement ? Malfaçons, expertises avant achat, litiges avec une entreprise, suspicions de vices cachés, sinistres ou désaccord avec un assureur… Expert en bâtiment pour particuliers et professionnels Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire.Veuillez activer JavaScript dans votre navigateur pour remplir ce formulaire. Identité : * PrénomNom […]",
+    description: "Besoin de conseils ou d'un accompagnement ? Malfaçons, vices cachés, litiges travaux : contactez Frédéric Gauthier, expert en bâtiment indépendant.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2026/02/expertbatimentlandespaysbasque.png"],
   },
 };

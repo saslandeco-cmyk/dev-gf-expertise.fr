@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Maitrise d’œuvre à Bayonne - Dax :  Côte Basque - Landes - GF Expertise",
-  description: "Maitrise d’œuvre à Bayonne – Dax : Côte Basque – Landes Vous avez un projet de travaux de construction neuve ou de rénovation, sur une villa ou un immeuble ? Faîtes vous assister par un expert en constructions. Nous assurons une mission de maîtrise d’œuvre complète d’exécution sur les départements des Landes et Pays Basque […]",
+  description: "Maîtrise d'œuvre à Bayonne, Dax, Côte Basque et Landes : assistance complète pour vos travaux de construction ou de rénovation.",
   alternates: { canonical: "https://gf-expertise.fr/assistance-a-maitre-douvrage/" },
   openGraph: {
     title: "Maitrise d’œuvre à Bayonne - Dax :  Côte Basque - Landes - GF Expertise",
-    description: "Maitrise d’œuvre à Bayonne – Dax : Côte Basque – Landes Vous avez un projet de travaux de construction neuve ou de rénovation, sur une villa ou un immeuble ? Faîtes vous assister par un expert en constructions. Nous assurons une mission de maîtrise d’œuvre complète d’exécution sur les départements des Landes et Pays Basque […]",
+    description: "Maîtrise d'œuvre à Bayonne, Dax, Côte Basque et Landes : assistance complète pour vos travaux de construction ou de rénovation.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2022/03/Maitrise-doeuvre-Landes-Pays-Basques.jpg"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Maitrise d’œuvre à Bayonne - Dax :  Côte Basque - Landes - GF Expertise",
-    description: "Maitrise d’œuvre à Bayonne – Dax : Côte Basque – Landes Vous avez un projet de travaux de construction neuve ou de rénovation, sur une villa ou un immeuble ? Faîtes vous assister par un expert en constructions. Nous assurons une mission de maîtrise d’œuvre complète d’exécution sur les départements des Landes et Pays Basque […]",
+    description: "Maîtrise d'œuvre à Bayonne, Dax, Côte Basque et Landes : assistance complète pour vos travaux de construction ou de rénovation.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2022/03/Maitrise-doeuvre-Landes-Pays-Basques.jpg"],
   },
 };

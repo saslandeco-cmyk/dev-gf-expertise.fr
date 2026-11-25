@@ -5,11 +5,11 @@ import { getEffectiveBodyHtml } from "@/lib/page-content";
 
 export const metadata: Metadata = {
   title: "Avis technique d'un Expert en bâtiment - GF Expertise",
-  description: "Le requérant a sollicité mon expertise en qualité d’expert bâtiment et économiste de la construction pour avoir un avis technique sur l’état de deux bâtiments dans le cadre de la rédaction d’un nouveau bail. La mission de l’expert sera suivant le devis 20-138 du x-x-2020 : Diagnostic technique des bâtiments. Donner un avis sur l’état […]",
+  description: "Avis technique d'un expert en bâtiment sur l'état de deux bâtiments avant la rédaction d'un bail : diagnostic et estimation des travaux.",
   alternates: { canonical: "https://gf-expertise.fr/avis-technique-dun-expert-en-batiment/" },
   openGraph: {
     title: "Avis technique d'un Expert en bâtiment - GF Expertise",
-    description: "Le requérant a sollicité mon expertise en qualité d’expert bâtiment et économiste de la construction pour avoir un avis technique sur l’état de deux bâtiments dans le cadre de la rédaction d’un nouveau bail. La mission de l’expert sera suivant le devis 20-138 du x-x-2020 : Diagnostic technique des bâtiments. Donner un avis sur l’état […]",
+    description: "Avis technique d'un expert en bâtiment sur l'état de deux bâtiments avant la rédaction d'un bail : diagnostic et estimation des travaux.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/12/baniere1-1.png"],
     siteName: "GF Expertise",
     locale: "fr_FR",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Avis technique d'un Expert en bâtiment - GF Expertise",
-    description: "Le requérant a sollicité mon expertise en qualité d’expert bâtiment et économiste de la construction pour avoir un avis technique sur l’état de deux bâtiments dans le cadre de la rédaction d’un nouveau bail. La mission de l’expert sera suivant le devis 20-138 du x-x-2020 : Diagnostic technique des bâtiments. Donner un avis sur l’état […]",
+    description: "Avis technique d'un expert en bâtiment sur l'état de deux bâtiments avant la rédaction d'un bail : diagnostic et estimation des travaux.",
     images: ["https://gf-expertise.fr/wp-content/uploads/2020/12/baniere1-1.png"],
   },
 };
