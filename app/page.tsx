@@ -32,6 +32,17 @@ export default async function Page() {
   const effectiveBodyHtml = await getEffectiveBodyHtml(SLUG, bodyHtml);
   return (
     <>
+      {/* The hero is a CSS background-image (Elementor "classic" background),
+          not an <img> - invisible to the browser's preload scanner, so it's
+          the LCP element but was the last thing to start loading (measured
+          at ~5s). This hints it in instead of waiting on the external
+          stylesheet to resolve the background-image rule. */}
+      <link
+        rel="preload"
+        as="image"
+        href="/wp-content/uploads/2026/01/expertenbatimentlandespaybasque.png"
+        fetchPriority="high"
+      />
       <div dangerouslySetInnerHTML={{ __html: headHtml }} />
       <div className="home wp-singular page-template-default page page-id-731 wp-custom-logo wp-embed-responsive wp-theme-blocksy wp-child-theme-gf-expertise-child elementor-default elementor-kit-919 elementor-page elementor-page-731 modula-best-grid-gallery ct-elementor-default-template" dangerouslySetInnerHTML={{ __html: effectiveBodyHtml }} />
     </>
